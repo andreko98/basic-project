@@ -1,0 +1,3 @@
+<div *ngIf="message" [ngClass]="message.cssClass" role="alert">
+    <span><i class="fa fa-exclamation-triangle" aria-hidden="true" *ngIf="error"></i> {{message.text}}</span>
+</div>

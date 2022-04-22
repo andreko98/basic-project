@@ -1,0 +1,20 @@
+<div class="container">
+    <p class="title">Entrar</p>
+    <div class="card">
+        <div class="card-body">
+            <form [formGroup]="form" (ngSubmit)="onSubmit()">
+                <label for="user" class="form-label"><b>Usuário:</b></label>
+                <input type="text" id="user" name="user" formControlName="user" placeholder="Usuário" value="" autofocus>
+
+                <label for="pass" class="form-label"><b>Senha:</b></label>
+                <input type="password" id="pass" name="pass" formControlName="pass" placeholder="********" value="">
+    
+                <div id="action-div">
+                    <button class="btn btn-secondary" type="submit" id="btn-login">
+                        Entrar
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

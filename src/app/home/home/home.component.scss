@@ -1,0 +1,39 @@
+.showroom {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.card-body {
+    padding: 0;
+}
+
+.image-container img {
+    width: 328px;
+    height: 170px;
+    border-radius: 8px 8px 0 0;
+}
+
+.dealer-container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(87, 87, 87);
+    width: 100%;
+    padding-top: 15px;
+    border-radius: 0 0 8px 8px;
+}
+
+.dealer-container h5 {
+    margin-bottom: 20px;
+}
+
+.vehicle-container {
+    padding: 20px 0 10px 50px;
+}

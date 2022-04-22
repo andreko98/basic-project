@@ -1,0 +1,74 @@
+{
+    "users": [
+        {
+            "name": "buyer",
+            "pass": "buyer"
+        }
+    ],
+    "dealership": [
+        { 
+            "name": "Bom Negócio Automóveis", 
+            "cnpj": "80.866.255/0001-70",
+            "state": "São Paulo",
+            "city": "Guarulhos",
+            "dealer": "Carlos Alberto",
+            "phone": "(73) 3918-5520",
+            "vehicles": [
+                {
+                    "type": "SUV",
+                    "brand": "Toyota",
+                    "name": "4Runner SR5",
+                    "year": "2022",
+                    "fuel": "Diesel",
+                    "price": 173000,
+                    "image": "assets/images/4Runner_SR5.png"
+                },
+                {
+                    "type": "SUV",
+                    "brand": "Toyota",
+                    "name": "RAV4 LE",
+                    "year": "2022",
+                    "fuel": "Diesel",
+                    "price": 122000,
+                    "image": "assets/images/RAV4_LE.png"
+                },
+                {
+                    "type": "Picape",
+                    "brand": "Ford",
+                    "name": "Ranger XL",
+                    "year": "2023",
+                    "fuel": "Diesel",
+                    "price": 218000,
+                    "image": "assets/images/Ranger_XL.png"
+                },
+                {
+                    "type": "Comercial",
+                    "brand": "Ford",
+                    "name": "Transit Minibus",
+                    "year": "2021",
+                    "fuel": "Diesel",
+                    "price": 220000,
+                    "image": "assets/images/Transit_Minibus.png"
+                },
+                {
+                    "type": "Sedan",
+                    "brand": "Hyundai",
+                    "name": "Azera",
+                    "year": "2016",
+                    "fuel": "Gasolina",
+                    "price": 110000,
+                    "image": "assets/images/Azera.png"
+                },
+                {
+                    "type": "Sedan",
+                    "brand": "Volkswagen",
+                    "name": "Jetta GLI 350 TSI",
+                    "year": "2021",
+                    "fuel": "Gasolina",
+                    "price": 205000,
+                    "image": "assets/images/Jetta_GLI_350_TSI.png"
+                }
+            ]
+        }
+    ]
+}

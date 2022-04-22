@@ -1,0 +1,30 @@
+<div class="container">
+    <p class="title">Veículos</p>
+
+    <div class="showroom" *ngFor="let dealership of dealerships; index as i">
+        <div class="card" *ngFor="let vehicle of dealership.vehicles">
+            <div class="card-body">
+                <div class="image-container">
+                    <img [src]="vehicle.image">
+                </div>
+
+
+                <div class="vehicle-container">
+                    <p>Marca: <b>{{ vehicle.brand }}</b></p>
+                    <p>Tipo: <b>{{ vehicle.type }}</b></p>
+                    <p>Nome: <b>{{ vehicle.name }}</b></p>
+                    <p>Ano: <b>{{ vehicle.year }}</b></p>
+                    <p>Combustível: <b>{{ vehicle.fuel }}</b></p>
+                    <p>Preço: <b style="color: rgb(0, 223, 0);">R$ {{ vehicle.price }}</b></p>
+                </div>
+
+                <div class="dealer-container">
+                    <h5>{{ dealership.name }}</h5>
+                    <p>{{ dealership.city }} - {{ dealership.state }}</p>
+                    <p>Vendedor: {{ dealership.dealer }}</p>
+                    <p>Fone: {{ dealership.phone }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
